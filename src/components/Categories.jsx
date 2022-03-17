@@ -10,7 +10,7 @@ function Categories({items}) {
   return (
     <div className="categories">
             <ul>
-              <li 
+              <li
               className={activeItem === null ? 'active' : ''}
               onClick={() => onSelectItem(null)}>Все</li>
              {items && 
