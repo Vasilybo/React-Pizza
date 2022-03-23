@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Categories = React.memo(function Categories({items, onClickItem}) {
-    const [activeItem, setActiveItem] = React.useState(null);
+const Categories = React.memo(function Categories({activeItem, items, onClickItem}) {
+    // const [activeItem, setActiveItem] = React.useState(null);
 
     const onSelectItem = (index) => {
-        setActiveItem(index);
+        // setActiveItem(index);
         onClickItem(index);
     };
 
