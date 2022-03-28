@@ -158,8 +158,6 @@ function Cart() {
                                             strokeLinejoin="round"
                                         />
                                     </svg>
-                                </Link>
-                                <Link to="/">
                                     <span>Вернуться назад</span>
                                 </Link>
 
