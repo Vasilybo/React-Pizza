@@ -4,3 +4,4 @@ export {default as Categories} from './Categories'
 export {default as SortPopup} from './SortPopup'
 export {default as PizzaBlock} from './pizzablock'
 export {default as PizzaLoadingBlock} from "./pizzablock/LoadingBlock"
+export {default as CartItem} from "./CartItem"

@@ -53,9 +53,9 @@ function Home() {
             <div className="content__items">
                 {isLoaded ? items.map(item =>
                         <PizzaBlock
-                            addPizzaToCart={handleAddPizzaToCart} // addPizzaToCart={(item) => console.log(item)}
+                            addPizzaToCart={handleAddPizzaToCart}
                             key={item.id}
-                            addedCount={cartItems[item.id] && cartItems[item.id].length}
+                            addedCount={cartItems[item.id] && cartItems[item.id].items.length}
                             {...item}
                         />)
                     : Array(10).fill(0).map((_, index) => <PizzaLoadingBlock key={index}/>)}
