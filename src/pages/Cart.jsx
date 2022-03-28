@@ -159,9 +159,9 @@ function Cart() {
                                         />
                                     </svg>
                                 </Link>
-                                    <Link to="/">
-                                        <span>Вернуться назад</span>
-                                    </Link>
+                                <Link to="/">
+                                    <span>Вернуться назад</span>
+                                </Link>
 
                                 <Button onClick={onClickOrder} className="pay-btn">
                                     <span>Оплатить сейчас</span>

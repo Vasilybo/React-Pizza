@@ -15,9 +15,9 @@ const _get = (obj, path) => {
 
 const getTotalSum = (obj, path) => {
     return Object.values(obj).reduce((sum, obj) => {
-            const value = _get(obj, path);
-            return sum + value;
-        }, 0);
+        const value = _get(obj, path);
+        return sum + value;
+    }, 0);
 };
 
 function cart(state = initialState, action) {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
-const CartItem = ({ id, name, type, size, totalPrice, totalCount, onRemove, onMinus, onPlus }) => {
+const CartItem = ({id, name, type, size, totalPrice, totalCount, onRemove, onMinus, onPlus}) => {
     const handleRemoveClick = () => {
         onRemove(id);
     };
